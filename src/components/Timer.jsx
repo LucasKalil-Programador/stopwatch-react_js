@@ -3,6 +3,11 @@ import TimerDisplay from "./TimerDisplay.jsx";
 import WatchList from "./WatchList.jsx";
 import "./Timer.css";
 
+import play_button from "../assets/play_button.png";
+import pause_button from "../assets/pause_button.png";
+import reset_button from "../assets/reset_button.png";
+import time_tracking_button from "../assets/time_tracking_button.png";
+
 // Timer component container of Timer display and WatchList
 export default function Timer() {
 
@@ -64,12 +69,19 @@ export default function Timer() {
 		<div className="Timer">
 			<TimerDisplay ms={timeNow}></TimerDisplay>
 			
-			<div>
-				<button onClick={onPauseClick}>{paused ? "play":"paused"}</button>
-				<button onClick={resetTimer}>Reset</button>
-				<button onClick={addOnHistoryTimes}>Watch</button>
-			</div>
+			
+			<button onClick={onPauseClick}>
+				<img src={paused ? play_button:pause_button}></img>
+			</button>
 
+			<button onClick={resetTimer}>
+				<img src={reset_button}></img>
+			</button>
+
+			<button onClick={addOnHistoryTimes}>
+				<img src={time_tracking_button}></img>
+			</button>
+			
 			<div className="Center">
 				<WatchList list={historyTimes}></WatchList>
 			</div>		

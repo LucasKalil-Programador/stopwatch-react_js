@@ -1,3 +1,8 @@
+img {
+  vertical-align: middle;
+  height: 80%;
+}
+
 h1 {
   font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
   font-size: max(min(10vw, 10vh), 60px);
