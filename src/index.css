@@ -1,0 +1,5 @@
+body {
+  margin-top: min(50, 20vh);
+  text-align: center;
+  background-color: #999999;
+}
