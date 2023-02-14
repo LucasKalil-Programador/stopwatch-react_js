@@ -69,13 +69,13 @@ export default function Timer() {
 		<div className="Timer">
 			<TimerDisplay ms={timeNow}></TimerDisplay>
 			
-			
-			<button onClick={onPauseClick}>
-				<img src={paused ? play_button:pause_button}></img>
-			</button>
 
 			<button onClick={resetTimer}>
 				<img src={reset_button}></img>
+			</button>
+			
+			<button onClick={onPauseClick}>
+				<img src={paused ? play_button:pause_button}></img>
 			</button>
 
 			<button onClick={addOnHistoryTimes}>
