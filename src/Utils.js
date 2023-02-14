@@ -1,6 +1,6 @@
 
 // return time in Date in string in pattern 00:00:00.00
-// Total hour | Minutes | Seconds | Milliseconds
+// Total hour : Minutes : Seconds . Milliseconds
 function toTimeString(time) {
 	const ms = (~~(time.getMilliseconds() / 10)).toString().padStart(2,0);
 	const sc = time.getSeconds().toString().padStart(2,0);

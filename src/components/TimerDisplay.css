@@ -1,0 +1,5 @@
+
+/* auto adjust font size based view port */
+h1 {
+  font-size: max(min(10vw, 10vh), 60px);
+}
