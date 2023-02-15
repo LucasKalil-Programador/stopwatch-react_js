@@ -55,7 +55,7 @@ button:focus {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
 }
  
-.WatchPanel::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #405cf5;
   border-radius: 10px;
 }
