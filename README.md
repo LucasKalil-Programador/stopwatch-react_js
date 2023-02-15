@@ -31,6 +31,9 @@ para executar o projeto siga os passo abaixo
 # clona o repositorio
 git clone https://github.com/LucasKalil-Programador/stopwatch-react_js.git
 
+# instala as dependências necessárias
+npm install
+
 # execulta o servidor dev
 npm run dev
 
