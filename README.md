@@ -27,6 +27,7 @@ para executar o projeto siga os passo abaixo
 
 ```bash
 # estando na pasta de destino execulte
+
 # clona o repositorio
 git clone https://github.com/LucasKalil-Programador/stopwatch-react_js.git
 
